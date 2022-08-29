@@ -1,0 +1,122 @@
+/*Home Page*/
+body {
+    display: flex;
+    width: 100%;
+    height: 560px;
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 2em;
+    justify-content: center;
+    background-image: url(image/planofundo.jpeg);
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+/*menu*/
+
+.navegation li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(184, 172, 196, 0.3);
+    box-shadow: 10px 10px 10px rgb(159, 150, 150);
+    border-radius: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(212, 183, 183);
+    transition: 0.7s;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.border {
+    display: flex;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+    background-image: url(image/Beleza-da-mulher.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;
+}
+
+.logo {
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 560px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.end {
+    display: inline-block;
+    padding: 30px;
+}
+
+/*verse and page*/
+
+.back {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px rgb(55, 53, 53);
+    background-image: url(image/Beleza-da-mulher.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;
+    border-radius: 30px;
+}
+
+p {
+    display: inline-block;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.icon1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 313px;
+    height: 250px;
+    padding: 14px;
+}
+
+.icon2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 313px;
+    height: 250px;
+    padding: 14px;
+}
+
+.icon1,
+#up {
+    border-radius: 0;
+    border-bottom-right-radius: 30px;
+    padding-bottom: 20px;
+    background-color: rgba(181, 197, 197, 0.644);
+}
+
+.icon2,
+#down {
+    border-radius: 0;
+    border-top-right-radius: 30px;
+    background-color: #64a5c3cf;
+}
+
+.end-verse {
+    padding: 30px;
+}
